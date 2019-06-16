@@ -21,11 +21,11 @@ The nanodegree included a series of projects, mini-projects and quizes which are
 - Predicting Student Admissions with Neural Networks
 - Deep Learning with Pytorch
   - **Part 1:** Introduction to PyTorch and using tensors
-  - **Part 2:** Building fully-connected neural networks with PyTorch
+  - **Part 2:** Building a fully-connected neural networks with PyTorch
   - **Part 3:** Training a fully-connected network with backpropagation on MNIST (Handwritten Digits)
   - **Part 4:** Training neural network on Fashion-MNIST
-  - **Part 5:** Using a trained network for making predictions and validating networks
-  - **Part 6:** Daving and loading trained models
+  - **Part 5:** Using a trained network for making predictions and validating networks, Implementing Dropout to avoid overfitting
+  - **Part 6:** Saving and loading trained models
   - **Part 7:** Loading image data with torchvision, also data augmentation
   - **Part 8:** Using transfer learning to train a state-of-the-art image classifier for dogs and cats
 
