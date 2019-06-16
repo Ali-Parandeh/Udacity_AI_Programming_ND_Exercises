@@ -1,0 +1,28 @@
+{'n_images': 40, 'n_dogs_img': 30, 'n_notdogs_img': 10, 'n_match': 33, 'n_correct_dogs': 30, 'n_correct_notdogs': 9, 'n_correct_breed': 27, 'pct_match': 82.5, 'pct_correct_dogs': 100.0, 'pct_correct_breed': 90.0, 'pct_correct_notdogs': 90.0}
+
+The model used for this classification is 'resnet'.
+
+The overall count of the images include: 
+ Number of Images:                     40
+ Number of dog images:                 30
+ Number of 'Not-a' dog images:         10
+
+The statistics value of percentages include:
+ % of Correct Dogs:                            100.0
+ % of Correct Breed:                           90.0
+ % of Correct 'Not-a' Dog:                     90.0
+ % of label Matches (dog and not-a-dog):       82.5
+
+Incorrect dog classifications:
+
+Pet Image:                            cat   classifier label:   norwegian elkhound, elkhound
+
+Incorrect breed classifications:
+
+Pet Image:                 great pyrenees   classifier label:                     kuvasz
+Pet Image:                         beagle   classifier label: walker hound, walker foxhound
+Pet Image:               golden retriever   classifier label:                   leonberg
+
+** Total Elapsed Runtime: 0:0:6
+
+Using the 40 pet images, VGG had the highest accuracy (100% in classifying the dog vs non-dog images and 93.3% in percentage of correct dog breed classification. It managed to classify all 40 images to 87.5% accuracy. Other classifiers, Alexnet and Resnet managed to classify all images by 75% and 82.5% respectively. Therefore, Alexnet is worse than Resnet in than classifying dogs and dog breeds but better than Resnet at classifying non-dogs. VGG is 10 times slower than both Alexnet and Resnet classifiers but the most accurate classifier.

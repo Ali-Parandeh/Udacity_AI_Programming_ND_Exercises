@@ -1,0 +1,39 @@
+{'n_images': 4, 'n_dogs_img': 2, 'n_notdogs_img': 2, 'n_match': 1, 'n_correct_dogs': 2, 'n_correct_notdogs': 2, 'n_correct_breed': 0, 'pct_match': 25.0, 'pct_correct_dogs': 100.0, 'pct_correct_breed': 0.0, 'pct_correct_notdogs': 100.0}
+
+The model used for this classification is 'vgg'.
+
+The overall count of the images include: 
+ Number of Images:                      4
+ Number of dog images:                  2
+ Number of 'Not-a' dog images:          2
+
+The statistics value of percentages include:
+ % of Correct Dogs:                            100.0
+ % of Correct Breed:                            0.0
+ % of Correct 'Not-a' Dog:                    100.0
+ % of label Matches (dog and not-a-dog):       25.0
+
+Incorrect breed classifications:
+
+Pet Image:                            dog   classifier label:                 pomeranian
+Pet Image:                            dog   classifier label:                 pomeranian
+
+** Total Elapsed Runtime: 0:0:3
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+ 
+Yes
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+ 
+Yes
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Yes
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Both VGG and Alexnet did a great job at identifying the dogs vs non-dog images plus identifying the correct breeds. Alexnet was 10 times faster than VGG. If accurancy is important, VGG is the best classifier. However, if time is also important then Alexnet is the most efficient classifier. The worst classifier is Resnet because it did not manage to classify the lizard (non-dog) image. It appears that none of the classifiers are trained to classify non-animal non-dog images (i.e. coffee cup).
+
+Using the 40 pet images, VGG had the highest accuracy (100% in classifying the dog vs non-dog images and 93.3% in percentage of correct dog breed classification. It managed to classify all 40 images to 87.5% accuracy. Other classifiers, Alexnet and Resnet managed to classify all images by 75% and 82.5% respectively. Therefore, Alexnet is worse than Resnet in than classifying dogs and dog breeds but better than Resnet at classifying non-dogs. VGG is 10 times slower than both Alexnet and Resnet classifiers but the most accurate classifier.
