@@ -31,7 +31,7 @@ The nanodegree included a series of projects, mini-projects and quizes which are
 
 
 
-### Quizes:
+### Exercises:
 - **Python**
   - **Data Types and Variables:** Arithmetic Operators, Variables and Assignment Operators, Integers and Floats, Booleans - Comparison Operators and Logical Operators, Strings, Type and Type Conversion, String Methods
   - **Data Structures:** Lists and Membership Operators, List Methods, Tuples, Sets, Dictionaries and Identity Operators, Compound Data Structures
