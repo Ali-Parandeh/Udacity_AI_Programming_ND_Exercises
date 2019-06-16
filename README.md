@@ -1,4 +1,4 @@
-# Udacity AI Programming ND Exercises
+# Udacity AI Programming Nanodegree
 A collection of exercises and mini-projects I have completed as part of my Udacity AI Programming Nanodegree Programme.
 
 The nanodegree included a series of projects, mini-projects and quizes which are included in this repo.
