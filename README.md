@@ -22,21 +22,22 @@ The nanodegree included a series of projects, mini-projects and quizes which are
 - Tensors in Pytorch
 - Neural Networks in Pytorch
 - Training Neural Networks
-- Inheritance and Validation
+- Inference and Validation
 - Fashion MNist
 - Inheritance and Validation
-- Saving and Loading Models
+- Loading Image Data
+- Transfer Learning
 
 
 
 ### Quizes:
 - **Python**
- - **Data Types and Variables:** Arithmetic Operators, Variables and Assignment Operators, Integers and Floats, Booleans - Comparison Operators and Logical Operators, Strings, Type and Type Conversion, String Methods
- - **Data Structures:** Lists and Membership Operators, List Methods, Tuples, Sets, Dictionaries and Identity Operators, Compound Data Structures
- - **Control Flow:** Conditional Statements, Boolean Expressions for Conditions,  For Loops, Iterating Through Dictionaries, While Loops, Break and Continue, Zip and Enumerate, List Comprehensions
- - **Functions:** Defining Functions, Variable Scope, Function Documentation, Lambda Expressions, Iterators and Generators
- - **Scripting:** Scripting with Raw Input, Errors and Exceptions, Handling Input Errors, Reading and Writing Files, The Standard Library
- - **OOP**: OOP Syntax, Magic Methods, Inheritance
+  - **Data Types and Variables:** Arithmetic Operators, Variables and Assignment Operators, Integers and Floats, Booleans - Comparison Operators and Logical Operators, Strings, Type and Type Conversion, String Methods
+  - **Data Structures:** Lists and Membership Operators, List Methods, Tuples, Sets, Dictionaries and Identity Operators, Compound Data Structures
+  - **Control Flow:** Conditional Statements, Boolean Expressions for Conditions,  For Loops, Iterating Through Dictionaries, While Loops, Break and Continue, Zip and Enumerate, List Comprehensions
+  - **Functions:** Defining Functions, Variable Scope, Function Documentation, Lambda Expressions, Iterators and Generators
+  - **Scripting:** Scripting with Raw Input, Errors and Exceptions, Handling Input Errors, Reading and Writing Files, The Standard Library
+  - **OOP**: OOP Syntax, Magic Methods, Inheritance
 - **Numpy:** Creating ndarrays, Manipulating ndarrays, Broadcasting
 - **Pandas:** Manipulate a Series, Manipulate a DataFrame
 - **Linear Algebra:** Vectors, Linear Combination and Transformation
